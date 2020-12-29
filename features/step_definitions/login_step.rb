@@ -11,5 +11,5 @@ end
 
 Então("sou direcionado para home") do
   expect(page).to have_css ".sidebar"
-  # sleep 3
+  # sleep 5
 end
